@@ -17,7 +17,7 @@
   },
   "scripts": {
     "setup": "node ./scripts/setup.cjs",
-    "build": "pnpm run setup && tsup",
+    "build": "node init && pnpm run setup && tsup",
     "test": "vitest --run",
     "format": "prettier --write \"**/*.{ts,js,json,md}\"",
     "lint": "eslint \"src/**/*.ts\"",

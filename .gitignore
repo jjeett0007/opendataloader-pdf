@@ -74,3 +74,4 @@ logs/
 .claude/plans/
 
 config.bat
+.env
